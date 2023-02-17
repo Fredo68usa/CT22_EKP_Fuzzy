@@ -5,7 +5,7 @@ p1 = ekfuzzy.EKFuzzy()
 p1.posGresPrep()
 
 if p1.tbcSQL is None:
-   p1.tbcSQL = "Select Hello fom CNN "
+   p1.tbcSQL = "Select Hello fom CCN "
 
 
 print ('--------------------')
@@ -17,3 +17,4 @@ print ('--------------------')
 thread = threading.Thread(target=p1.checkFuzzy())
 thread.start()
 
+p1.close_PosGres()

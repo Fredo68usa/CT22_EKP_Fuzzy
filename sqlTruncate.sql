@@ -1,1 +1,2 @@
-TRUNCATE currentsqls;
+TRUNCATE similarsqls;
+TRUNCATE currentsqls CASCADE;

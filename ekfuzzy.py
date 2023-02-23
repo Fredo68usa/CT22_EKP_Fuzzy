@@ -11,14 +11,6 @@ import sys
 # Defining a class
 class EKFuzzy:
     def __init__(self):
-        self.course = "Course"
-        self.name = "Name"
-        self.myListMeta_IP = []
-        self.myListMeta_Env = []
-        self.myListMeta_SubEnv = []
-        self.myListMeta_FQDN = []
-        self.myListIPs = []
-        self.cnt = 0
         self.minScore = 30
 
         #Access to PostGreSQL
